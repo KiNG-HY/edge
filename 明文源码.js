@@ -1,7 +1,7 @@
 
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
+let userID = 'KiNG-QQ:3148213528';
 let proxyIP = '';
 let sub = '';
 let subConverter = 'SUBAPI.fxxk.dedyn.io';
@@ -1440,8 +1440,6 @@ async function 生成配置信息(userID, hostName, sub, UA, RproxyIP, _url, env
 			---------------------------------------------------------------<br>
 			${clash}<br>
 			---------------------------------------------------------------<br>
-			################################################################<br>
-			${cmad}
 			`;
 		return 节点配置页;
 	} else {
