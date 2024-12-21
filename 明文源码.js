@@ -1806,7 +1806,7 @@ function 生成本地订阅(host,UUID,noTLS,newAddressesapi,newAddressescsv,newA
 		if(proxyhosts.length > 0 && (伪装域名.includes('.workers.dev'))) {
 			最终路径 = `/${伪装域名}${最终路径}`;
 			伪装域名 = proxyhosts[Math.floor(Math.random() * proxyhosts.length)];
-			节点备注 = ` 已启用临时域名中转服务，请尽快绑定自定义域！`;
+			节点备注 = ``;
 		}
 		
 		const 协议类型 = atob(啥啥啥_写的这是啥啊);
@@ -2032,8 +2032,6 @@ async function KV(request, env, txt = 'ADD.txt') {
 						<span class="save-status" id="saveStatus"></span>
 					</div>
 					<br>
-					################################################################<br>
-					${cmad}
 					` : '<p>未绑定KV空间</p>'}
 				</div>
 		
